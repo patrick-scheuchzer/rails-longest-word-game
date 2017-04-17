@@ -1,0 +1,9 @@
+<div id="result" class="card text-center">
+  <h1>Result</h1>
+  <h3><%= "Time: #{@result[:time]}"%></h3>
+  <h3><%= "Translation: #{@result[:translation]}"%></h3>
+  <h3><%= "Score: #{@result[:score]}"%></h3>
+  <h3><%= @result[:message] %></h3>
+
+  <%= link_to "Play another round", game_path %>
+</div>
